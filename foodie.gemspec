@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "foodie/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "foodie"
+  spec.name          = "mnwani-foodie"
   spec.version       = Foodie::VERSION
   spec.authors       = ["Michael Nwani"]
   spec.email         = ["kmichael24@gmail.com"]
 
-  spec.summary       = %q{Foodie summary blah blah blah}
-  spec.description   = %q{Foodie description blah blah blah}
-  # spec.homepage      = "A homepage description"
+  spec.summary       = %q{Foodie is a Ruby gem created by following Bundler's tutorial}
+  spec.description   = %q{Foodie helps you find out whether or not a particular food is 'Gross!' or 'Delicious!'}
+  spec.homepage      = "https://github.com/michaelnwani/foodie"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

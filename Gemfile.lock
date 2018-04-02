@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    foodie (0.1.0)
+    mnwani-foodie (0.1.0)
       activesupport (~> 4.2.0)
       aruba
       cucumber
@@ -76,7 +76,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  foodie!
+  mnwani-foodie!
   rake (~> 10.0)
   rspec (~> 3.0)
 
